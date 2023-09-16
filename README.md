@@ -1,2 +1,2 @@
 # CardRepository
-Handles bank account related actions.
+Handles bank card related actions.
