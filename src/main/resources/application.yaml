@@ -1,0 +1,8 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5431/card-manager
+    username: weinber
+    password: weinber
+    driver-class-name: org.postgresql.Driver
