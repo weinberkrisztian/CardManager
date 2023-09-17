@@ -33,6 +33,6 @@ public class Card {
     private int amountUsed;
     @Column(name = "available_amount")
     private int availableAmount;
-    @Column(name = "create_date")
+    @Column(name = "create_date", updatable = false)
     private Instant createDate;
 }
